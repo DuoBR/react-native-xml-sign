@@ -1,0 +1,30 @@
+{
+  "name": "react-native-xml-sign",
+  "version": "1.0.0",
+  "description": "XML signature using W3C Signature specifications only Android",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "android",
+    "xml",
+    "sign",
+    "signature",
+    "react-native"
+  ],
+  "author": "Luis Tofoli",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "peerDependencies": {},
+  "devDependencies": {}
+}
