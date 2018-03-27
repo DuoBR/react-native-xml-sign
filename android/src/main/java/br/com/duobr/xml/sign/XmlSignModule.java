@@ -1,4 +1,4 @@
-package br.com.duobr.xml;
+package br.com.duobr.xml.sign;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

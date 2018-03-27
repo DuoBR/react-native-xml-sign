@@ -1,4 +1,4 @@
-package br.com.duobr.xml;
+package br.com.duobr.xml.sign;
 
 import android.util.Base64;
 import android.util.Log;
