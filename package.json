@@ -11,7 +11,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/DuoBR/react-native-xml-sign"
   },
   "keywords": [
     "android",
@@ -22,9 +22,9 @@
   ],
   "author": "Luis Tofoli",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/DuoBR/react-native-xml-sign/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/DuoBR/react-native-xml-sign",
   "peerDependencies": {},
   "devDependencies": {}
 }
