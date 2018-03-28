@@ -26,5 +26,10 @@
   },
   "homepage": "https://github.com/DuoBR/react-native-xml-sign",
   "peerDependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "rnpm": {
+    "android": {
+      "packageInstance": "new XmlSignPackage()"
+    }
+  }
 }

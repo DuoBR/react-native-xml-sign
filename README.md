@@ -6,6 +6,51 @@ XML signature using W3C Signature specifications only Android
 
 `npm i --save react-native-xml-sign`
 
+## Linking Native Dependencies
+
+### Automatic Linking
+
+`react-native link react-native-xml-sign`
+
+### Manual Linking
+
+#### Android
+
+1. In `android/setting.gradle`
+    ```
+    ...
+    include ':react-native-xml-sign'
+    project(':react-native-xml-sign').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-xml-sign/android')
+    ```
+   
+2. In `android/app/build.gradle`
+    ```
+    ...
+    dependencies {
+        ...
+        compile project(':react-native-xml-sign')
+    }
+    ```
+
+3. Register module in `MainApplication.java`
+    ```
+    import br.com.duobr.xml.sign.XmlSignPackage;  // <--- import
+    
+    public class MainApplication extends Application implements ReactApplication {
+      ......
+    
+      @Override
+      protected List<ReactPackage> getPackages() {
+          return Arrays.<ReactPackage>asList(
+              new MainReactPackage(),
+              new XmlSignPackage()      <------- Add this
+          );
+      }
+    
+      ......
+    
+    }
+    ```
 
 ## Usage (XmlSign)
 
