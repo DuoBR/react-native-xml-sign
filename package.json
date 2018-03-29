@@ -1,6 +1,6 @@
 {
   "name": "react-native-xml-sign",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "XML signature using W3C Signature specifications only Android",
   "licenses": [
     {
